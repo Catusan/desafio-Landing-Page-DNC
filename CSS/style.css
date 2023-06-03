@@ -1,0 +1,85 @@
+* {
+  font-family: "Inter";
+  margin: 0px;
+  padding: 0px;
+}
+
+#topSection {
+  color: #fff;
+  background-color: #303030;
+  padding: 100px;
+}
+
+#topSectionTitle {
+  font-weight: bolder;
+}
+
+#topSectionSubtitle {
+  font-size: small;
+}
+
+#numSection {
+  background-color: #f9f9f9;
+  padding: 50px;
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.listItems {
+  margin-left: 150px;
+}
+
+#infoSection {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 50px;
+}
+
+#pictureInfoSection {
+  width: 510px;
+}
+
+#infoSectionText {
+  padding: 100px;
+  text-align: justify;
+}
+
+#formSection {
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+input {
+  height: 30px;
+  width: 508px;
+  border: 0px;
+  border-radius: 10px;
+  margin: 30px;
+  font-family: "raleway";
+  padding: 20px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+button {
+  height: 72px;
+  width: 286px;
+  border: 0px;
+  border-radius: 8px;
+  background: #c07212;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "raleway";
+  margin: 50px;
+}
+
+button:hover {
+  background-color: #8b4f04;
+  color: #fdf4e9;
+}
